@@ -1,0 +1,41 @@
+@import "estructura";
+
+
+
+/*----  INDEX   ----*/
+
+.tabla{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+table th {
+	color: #051d4a; 
+	
+	background-color: $colorHeader;
+	border: 2px solid;
+	text-transform: uppercase;
+	padding-top: 5px;
+	
+}
+
+tr, td {
+	color: #051d4a; 
+	
+	border: 1px solid;
+	border-top: 1px solid;
+}
+
+ol li {
+	list-style: disc;
+	
+	font-style: oblique;
+	
+}
+hr {
+	
+	border: 0;
+	border-top: 2px solid #999; 
+	border-bottom: 2px solid #333;
+}
