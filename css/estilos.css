@@ -121,6 +121,7 @@ a:hover {
   text-transform: uppercase;
 }
 
+
 .logo {
   grid-area: logo;
   display: -webkit-box;
@@ -130,7 +131,7 @@ a:hover {
   -ms-flex-pack: center;
   justify-content: center;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#A5CF61), to(white));
-  background-image: linear-gradient(to bottom, #A5CF61, white);
+  background-image: linear-gradient(to bottom, #A5CF61, #A5CF61, white);
 }
 
 .logo__img {
@@ -141,6 +142,7 @@ a:hover {
 .sectionUno {
   grid-area: sectionUno;
   padding: 10px;
+  
 }
 
 .sectionDos {
