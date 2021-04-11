@@ -97,7 +97,7 @@ a {
   color: #051d4a;
 }
 
-a:hover {
+.menu a:hover {
   color: #2d99ae;
 }
 
@@ -146,12 +146,23 @@ a:hover {
   padding: 10px;
   
 }
+.sectionUno__titulo{
+  text-transform: uppercase;
+}
 
 .sectionDos {
   grid-area: sectionDos;
   padding: 10px;
 }
 
+.boton{
+  margin-bottom: 20px;
+  
+}
+
+.btn:hover{
+  background-color: #A5CF61;
+}
 footer {
   padding: 10px;
   grid-area: footer;
@@ -185,7 +196,7 @@ footer {
     display: grid;
 	grid-template-columns: repeat(2, 1fr);
   padding: 20px;
-	grid-gap: 10px;
+	grid-gap: 20px;
 	}
 }
 .carousel{
@@ -232,6 +243,8 @@ hr {
 .contacto{
 	border: solid 2px; 
 	border-radius: 10px;
+  width: 500px;
+  height: auto;
 
   
 }
