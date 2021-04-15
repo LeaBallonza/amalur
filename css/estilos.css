@@ -97,7 +97,7 @@ a {
   color: #051d4a;
 }
 
-.menu a:hover {
+ a:hover {
   color: #2d99ae;
 }
 
@@ -160,9 +160,10 @@ a {
   
 }
 
-.btn:hover{
+.btn-outline-success:hover{
   background-color: #A5CF61;
 }
+
 footer {
   padding: 10px;
   grid-area: footer;
@@ -355,6 +356,7 @@ img{
 .btn-absolute {
   position: absolute;
   right: 40px;
+  
 
 }
 
