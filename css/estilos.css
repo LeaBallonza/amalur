@@ -1,5 +1,5 @@
 /*MEDIA QUERIES*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) and (max-width: 780px){
   .grid {
     display: -ms-grid;
     display: grid;
@@ -14,34 +14,21 @@
           }
 }
 
-@media screen and (min-width: 480px) and (max-width: 780px) {
+
+
+@media screen and (min-width: 780px) {
   .grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
         grid-template-areas: 
-        "header "
-        "logo "
-        "sectionUno "
-        "sectionDos " 
-        "footer ";
+        "header"
+        "logo"
+        "sectionUno"
+        "sectionDos" 
+        "footer";
           }
-}
-
-@media screen and (min-width: 780px) {
-  .grid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: 
-        "header header header"
-        "logo logo logo"
-        "sectionUno sectionUno sectionUno"
-        "sectionDos sectionDos sectionDos"
-        "footer footer footer";
-  }
 
   header {
     
@@ -52,13 +39,11 @@
     position: sticky; z-index: 1;
     top: 0px  ; 
   }
-  .proyecto{
-    display: flex;
-    flex-flow:row nowrap !important;
+  
+  footer {
+
+    flex-direction: row !important;
     justify-content: space-between;
-    margin-right: 10px;
-    
-    
   }
   
 }
@@ -87,10 +72,7 @@ header {
   -ms-flex-align: center;
   align-items: center;
   background-color: #bcbcc0;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-  z-index: 2;
+ 
 }
 
 a {
@@ -137,6 +119,7 @@ a {
   justify-content: center;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#A5CF61), to(white));
   background-image: linear-gradient(to bottom, #A5CF61 30%, whitesmoke );
+  padding-bottom: 2em;
 }
 
 .logo__img {
@@ -146,42 +129,48 @@ a {
 
 .sectionUno {
   grid-area: sectionUno;
-  padding: 10px;
+  padding-bottom: 2em;
+  display: flex;
+  flex-flow: column ;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  
   
 }
 .sectionUno__titulo{
   text-transform: uppercase;
+ 
 }
 
 .sectionDos {
   grid-area: sectionDos;
-  padding: 10px;
-}
-
-.boton{
-  margin-bottom: 20px;
+  
+   display: flex;
+  flex-flow: column ;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
   
 }
 
-.btn-outline-success:hover{
-  background-color: #A5CF61;
+
+
+.breadcrumb--modificador{
+  margin-top: 2em;
 }
 
 footer {
   padding: 10px;
   grid-area: footer;
-  display: -webkit-box;
-  display: -ms-flexbox;
+;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
+
+
+  flex-direction: column;
+  
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
+  
   align-items: center;
   background-color: #A5CF61;
 }
@@ -194,21 +183,18 @@ footer {
 
 /*----  INDEX   ----*/
 
-@media only screen and (min-width:768px) {
 
-	.index-container  {
-    display: grid;
-	grid-template-columns: repeat(2, 1fr);
-  padding: 20px;
-	grid-gap: 20px;
-	}
-}
 .carousel{
  
   width: auto;
  
  }
+
+ .boton{
+  margin-bottom: 1em;
+}
  
+ /*----  VENTAS  ----*/
 
 .tabla {
   width: 80%;
@@ -216,10 +202,14 @@ footer {
   margin-left: auto;
 }
 
+.tabla--modificador {
+  background-color: #bcbcc0;
+ 
+}
+
 table th {
   color: #051d4a;
-  background-color: #bcbcc0;
-  border: 2px solid;
+  border: 1px solid;
   text-transform: uppercase;
   padding-top: 5px;
 }
@@ -235,47 +225,43 @@ ol li {
   font-style: oblique;
 }
 
-hr {
-  border: 0;
-  border-top: 2px solid #999;
-  border-bottom: 2px solid #333;
-}
+
 
 /*----  Contacto   ----*/
 
 
 .contacto{
-	border: solid 2px; 
-	border-radius: 10px;
-  width: 500px;
-  height: auto;
-  margin: auto;
-
-  
+  margin-top: 2em;
 }
-.contacto__form{
 
-
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-  
-}
 input, textarea{
 
-	border: 2px solid #38a3a5;
+
 	border-radius: 6px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #051d4a;
 
 }
 
-input:hover {
-	background-color: #2d99ae;
-	color: white;
+/*Proyecto*/
+
+
+
+.btn-absolute {
+  position: absolute;
+  right: 40px;
+  
+
 }
+
+.card--modificador{
+
+  max-width: 30em;
+  margin: auto;
+  margin-bottom: 3em;
+}
+
+
 /*----   GALERIA   ----*/
 
 
@@ -293,7 +279,7 @@ img{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-auto-rows: 200px;
-	padding: 20px;
+	
 	grid-gap: 10px;
 	
 
@@ -353,23 +339,6 @@ img{
 }
 }
 
-/*Proyecto*/
-
-
-
-.btn-absolute {
-  position: absolute;
-  right: 40px;
-  
-
-}
-
-.card--modificador{
-
-  margin: auto;
-
-  margin-bottom: 100px;
-}
 
 /*---- ERROR 404 ----*/
 
