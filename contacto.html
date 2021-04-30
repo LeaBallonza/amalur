@@ -20,14 +20,14 @@
 
 	<header>
 		<h1 class="titulo">
-			<a href="index.html" class="titulo__item">AMALUR</a>
+			<a class="titulo__item" href="index.html">AMALUR</a>
 		</h1> 
 
 
 
 		
 		<nav>
-		
+			
 			<div class="menu">
 				<a class="menu__item" href="index.html">Inicio</a>	
 				<a class="menu__item" href="ventas.html">Ventas</a>	
@@ -40,7 +40,7 @@
 
 	<div class="logo">
 		<a href="index.html" class="logo__item">
-			 <img class="logo__img" src="css/multimedia/iconos/logosinfondo.png"> 
+			<img class="logo__img" src="css/multimedia/iconos/logosinfondo.png"> 
 		</a>
 	</div>
 
@@ -50,7 +50,11 @@
 	<section class="sectionUno"> 
 		<h2  class="sectionUno__titulo">Contacto</h2>
 
-		<div class="contacto"> <!--bloque 9-->
+		<div >
+			<p>¿Necesitas nuestra ayuda? Manda tu mensaje. </p>
+		</div>
+
+		<div class="contacto"> 
 			<div class="contacto__form">	
 				<form action="formulario_submit" method="get" accept-charset="utf-8">
 					<label for="nombre">Nombre:</label>
@@ -75,7 +79,7 @@
 					<input type="checkbox" id="bio"><label for="bio">Biodinámica</label>
 					<input type="checkbox" id="natural"><label for="natural">Natural</label>
 					<input type="checkbox" id="sinergica"><label for="sinergica">Sinérgica</label>
-					<input type="checkbox" id="mesianica"><label for="mesianica">Mesiánica</label>
+					
 					<input type="checkbox" id="permacultura"><label for="permacultura">Permacultura</label>
 					<br>
 					<br>
@@ -87,25 +91,32 @@
 				</form>
 			</div>
 		</div>
-	
+
+		<nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb">
+			<div class="breadcrumb breadcrumb--modificador">
+				<div class="breadcrumb-item"><a class="menu__item" href="index.html">Incio </a></div>
+				<div class="breadcrumb-item active menu__item" aria-current="page"> Contacto</div>
+			</div>
+		</nav>
+		
 	</section>
 	
-	<nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb">
-		<div class="breadcrumb">
-		  <div class="breadcrumb-item"><a class="menu__item" href="index.html">Incio </a></div>
-		  <div class="breadcrumb-item active menu__item" aria-current="page"> Contacto</div>
-		</div>
-	  </nav>
+	
 	
 	<footer class="footer">
-		<p class="footer__datos">Datos de Desarrolador</p>
+		
+		<div class="footer__datos">
+			<span>Desarrollado por LB</span>
+		</div>
+
+		<div id="copyright">&copy; 2021 - Amalur - Todos los derechos reservados</div>
 
 		<div class="redes">
-			<a href="https://www.facebook.com/Amalur-364893521156893" class="redes__item"> <img class="redes__img" src="css\multimedia\iconos\face.png" alt="Facebook"></a>
+			<a class="redes__item" href="https://www.facebook.com/Amalur-364893521156893"> <img class="redes__img" src="css\multimedia\iconos\face.png" alt="Facebook"></a>
 
-			<a href="https://instagram.com/perma.amalur?igshid=edy0o0aydx2f" class="redes__item"> <img class="redes__img" src="css\multimedia\iconos\insta2.png" alt="Instagram"></a>
+			<a class="redes__item" href="https://instagram.com/perma.amalur?igshid=edy0o0aydx2f"> <img class="redes__img" src="css\multimedia\iconos\insta2.png" alt="Instagram"></a>
 
-			<a href="https://www.youtube.com/watch?v=Ee7leGDb3Lo" class="redes__item"> <img class="redes__img" src="css\multimedia\iconos\youtube.png" alt="Youtube"></a>
+			<a class="redes__item" href="https://www.youtube.com/watch?v=Ee7leGDb3Lo"> <img class="redes__img" src="css\multimedia\iconos\youtube.png" alt="Youtube"></a>
 
 		</div>
 		
