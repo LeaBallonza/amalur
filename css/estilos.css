@@ -13,9 +13,6 @@
         "footer";
           }
 }
-
-
-
 @media screen and (min-width: 780px) {
   .grid {
     display: -ms-grid;
@@ -29,26 +26,18 @@
         "sectionDos" 
         "footer";
           }
-
-  header {
-    
-    
+  header {      
     flex-direction: row !important;
     justify-content: space-between;
     background-color: rgb(233, 236, 232); opacity:0.9;
     position: sticky; z-index: 1;
     top: 0px  ; 
-  }
-  
+  }  
   footer {
-
     flex-direction: row !important;
     justify-content: space-between;
-  }
-  
+  }  
 }
-
-
 /*----  GENERAL   ----*/
 body {
   margin: 0px;
@@ -58,7 +47,6 @@ body {
   font-size: 22px;
   background-color: whitesmoke;
 }
-
 header {
   grid-area: header;
   display: -webkit-box;
@@ -72,28 +60,22 @@ header {
   -ms-flex-align: center;
   align-items: center;
   background-color: #bcbcc0;
- 
 }
-
 a {
   margin-left: 10px;
   -webkit-text-decoration-line: none;
   text-decoration-line: none;
   color: #051d4a;
 }
-
  a:hover {
   color: #768FCF;
 }
-
 .titulo {
   margin: 5px 0px 0px 10px;
 }
-
 .titulo a:hover {
   color: #768FCF;
 }
-
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103,12 +85,9 @@ a {
   margin-top: 10px;
   margin-right: 10px;
 }
-
 .menu__item {
   text-transform: uppercase;
 }
-
-
 .logo {
   grid-area: logo;
   display: -webkit-box;
@@ -121,12 +100,10 @@ a {
   background-image: linear-gradient(to bottom, #A5CF61 30%, whitesmoke );
   padding-bottom: 2em;
 }
-
 .logo__img {
   height: 210px;
   width: 210px;
 }
-
 .sectionUno {
   grid-area: sectionUno;
   padding-bottom: 2em;
@@ -134,217 +111,141 @@ a {
   flex-flow: column ;
   align-items: center;
   margin-left: 1em;
-  margin-right: 1em;
-  
-  
+  margin-right: 1em; 
 }
 .sectionUno__titulo{
   text-transform: uppercase;
- 
 }
-
 .sectionDos {
-  grid-area: sectionDos;
-  
-   display: flex;
+  grid-area: sectionDos; 
+  display: flex;
   flex-flow: column ;
   align-items: center;
   margin-left: 1em;
   margin-right: 1em;
   
 }
-
-
-
 .breadcrumb--modificador{
   margin-top: 2em;
 }
-
 footer {
   padding: 10px;
   grid-area: footer;
-;
   display: flex;
-
-
-  flex-direction: column;
-  
-  justify-content: space-between;
-  
+  flex-direction: column; 
+  justify-content: space-between; 
   align-items: center;
   background-color: #A5CF61;
 }
-
 .redes__img {
   height: 27px;
   width: 27px;
-  
 }
-
 /*----  INDEX   ----*/
-
-
 .carousel{
- 
   width: auto;
- 
  }
-
  .boton{
   margin-bottom: 1em;
 }
- 
  /*----  VENTAS  ----*/
-
 .tabla {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
 }
-
 .tabla--modificador {
   background-color: #bcbcc0;
- 
 }
-
 table th {
   color: #051d4a;
   border: 1px solid;
   text-transform: uppercase;
   padding-top: 5px;
 }
-
 tr, td {
   color: #051d4a;
   border: 1px solid;
   border-top: 1px solid;
 }
-
 ol li {
   list-style: disc;
   font-style: oblique;
 }
-
-
-
-/*----  Contacto   ----*/
-
-
-.contacto{
-  margin-top: 2em;
-}
-
-input, textarea{
-
-
-	border-radius: 6px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: #051d4a;
-
-}
-
-/*Proyecto*/
-
-
-
+/*---- Proyecto  ----*/
 .btn-absolute {
   position: absolute;
-  right: 40px;
-  
-
+  right: 50px;  
 }
-
 .card--modificador{
-
   max-width: 30em;
   margin: auto;
   margin-bottom: 3em;
 }
-
-
 /*----   GALERIA   ----*/
-
-
 img{
 	max-width: 100%;
 }
-
-.gallery__item img{
-	
+.gallery__item img{	
 	box-shadow: 0 0 15px #A5CF61;
 	cursor: pointer;
 }
-
 .gallery-container  {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-auto-rows: 200px;
-	
+	grid-auto-rows: 200px;	
 	grid-gap: 10px;
-	
-
 }
-
 .gallery__img{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
-
-
 .gallery__img:hover{
-    filter: blur(5px);
+    filter: blur(3px);
 }
-
 .gallery__item:nth-child(4){
-
 	grid-column-start: span 2;
 }
 .gallery__item:nth-child(5){
-
 	grid-row-start: span 2;
 }
 .gallery__item:nth-child(11){
-
 	grid-column-start: span 3;
 }
-
 @media only screen and (min-width:768px) {
-
 	.gallery-container  {
 	grid-template-columns: repeat(4, 1fr);
 	}
 	.gallery__item:nth-child(6){
-
 	grid-row-end: span 2;
 }
 .gallery__item:nth-child(9){
-
 	grid-row-end:  span 2;
 }
 .gallery__item:nth-child(3){
-
 	grid-column-end: span 2;
 }
-
 .gallery__item:nth-child(11){
-
 	grid-column-start: span 2;
 }
-
 .gallery__item:nth-child(11){
-
 	grid-row-end: span 2;
 }
 .gallery__item:nth-child(10){
-
 	grid-row-end: span 2;
 }
 }
-
-
+/*----  Contacto   ----*/
+.contacto{
+  margin-top: 2em;
+}
+input, textarea{
+	border-radius: 6px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #051d4a;
+}
 /*---- ERROR 404 ----*/
-
 .mainbox {
   background-color: #A5CF61;
   margin: auto;
@@ -352,8 +253,7 @@ img{
   width: 600px;
   position: relative;
 }
-
-  .err {
+.err {
     color: #ffffff;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 11rem;
@@ -369,7 +269,6 @@ img{
   top: 15%;
   color: #ffffff;
 }
-
  .err2 {
     color: #ffffff;
     font-family: 'Nunito Sans', sans-serif;
@@ -378,7 +277,6 @@ img{
     left: 68%;
     top: 8%;
   }
-
 .msg {
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
