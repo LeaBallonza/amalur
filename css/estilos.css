@@ -292,6 +292,9 @@ img{
 }
 
 
+.gallery__img:hover{
+    filter: blur(5px);
+}
 
 .gallery__item:nth-child(4){
 
