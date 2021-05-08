@@ -187,13 +187,28 @@ footer {
 .carousel{
  
   width: auto;
- 
+  max-width: 45em;
  }
 
  .boton{
   margin-bottom: 1em;
 }
- 
+.boton--modificador{
+  background-color: #A5CF61;
+  color: #051d4a;
+}
+
+.boton--modificador:hover{
+  transform: scale(1.1);
+}
+
+.h5-titulo{
+  font-size: xx-large;
+}
+
+.h5--modificador{
+  font-size: larger;
+}
  /*----  VENTAS  ----*/
 
 .tabla {
@@ -255,10 +270,9 @@ input, textarea{
 }
 
 .card--modificador{
-
-  max-width: 30em;
-  margin: auto;
+  max-width: 30em; 
   margin-bottom: 3em;
+  background-color: whitesmoke;
 }
 
 
