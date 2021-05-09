@@ -198,61 +198,29 @@ footer {
 
 .h5-titulo{
   font-size: xx-large;
+  font-weight: bold;
 }
 
 .h5--modificador{
   font-size: larger;
+  font-weight: bold;
 }
- /*----  VENTAS  ----*/
-/*
-.tabla {
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.tabla--modificador {
-  background-color: #A5CF61;
- 
-}
-
-table th {
-  color: #051d4a;
-  border: 1px solid;
-  text-transform: uppercase;
-  padding-top: 5px;
-}
-
-tr, td {
-  color: #051d4a;
-  border: 1px solid;
-  border-top: 1px solid;
-}
-
-ol li {
-  list-style: disc;
-  font-style: oblique;
-}
-*/
-.plantines {
+/*----  PRODUCTOS   ----*/
+.productos-box{
   float: left;
   margin:20px 20px;
-  width: 16em;
-  -moz-box-shadow: #A5CF61;
-  -webkit-box-shadow: #A5CF61;
-  box-shadow: #A5CF61;
+  width: 16em; 
   border:1px solid #A5CF61;
   border-bottom:10px solid #A5CF61;
   text-align: center;
-  
 }
-.plantines-header {
+.productos-header {
   padding: 5px 0 5px 0;
   background: #A5CF61;
   border-bottom:10px solid #A5CF61;
   text-transform: uppercase;
 }
-.plantines-detalles {
+.productos-detalles {
   margin: 15px 10px 0 10px;
   padding: 0 10px 15px 10px;
   border-bottom: 1px dashed #888;
@@ -262,7 +230,7 @@ ol li {
   color: #696969;
   letter-spacing: 1px;
 }
-.plantines-caracteristicas{
+.productos-caracteristicas{
   width:50%;
   height: 50px;
   margin: 25px 0 25px 0;
@@ -273,10 +241,6 @@ ol li {
   line-height: 50px;
   text-transform: uppercase;
 }
-
-
-
-
 /*----  Contacto   ----*/
 
 
