@@ -125,6 +125,9 @@ a {
   margin-left: 1em;
   margin-right: 1em;
 }
+.sectionDos__titulo{
+  text-transform: uppercase;
+}
 .breadcrumb--modificador{
   margin-top: 2em;
 }
@@ -134,10 +137,9 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
   background-color: #A5CF61;
 }
-.redes__img {
+.footer__redes__img {
   height: 27px;
   width: 27px;
 }
