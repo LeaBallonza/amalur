@@ -124,7 +124,6 @@ a {
   align-items: center;
   margin-left: 1em;
   margin-right: 1em;
-  
 }
 .breadcrumb--modificador{
   margin-top: 2em;
@@ -154,11 +153,9 @@ footer {
   background-color: #A5CF61;
   color: #051d4a;
 }
-
 .boton--modificador:hover{
   transform: scale(1.1);
 }
-
 .h5-titulo{
   font-size: xx-large;
   font-weight: bold;
@@ -205,24 +202,18 @@ footer {
   text-transform: uppercase;
 }
 /*----  Contacto   ----*/
-
-
 .contacto{
   margin-top: 2em;
 }
-
 input, textarea{
-
-
 	border-radius: 6px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #051d4a;
-
 }
-
-/*Proyecto*/
-
-
+.btn-form:hover{
+  transform: scale(1.1);
+}
+/*----  Proyecto   ----*/
 
 .btn-absolute {
   position: absolute;
