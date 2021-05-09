@@ -35,8 +35,10 @@
   }  
   footer {
     flex-direction: row !important;
-    justify-content: space-between;
   }  
+  .productos-box{
+    float: left;
+  }
 }
 /*----  GENERAL   ----*/
 body {
@@ -132,7 +134,7 @@ a {
   margin-top: 2em;
   width:auto;
   display: inline-block;
-  height: 50px;
+  height: auto;
   border-radius: 5px;
   background: #A5CF61;
   line-height: 50px;
@@ -147,6 +149,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   background-color: #A5CF61;
 }
 .footer__redes__img {
@@ -179,7 +182,7 @@ footer {
 }
 /*----  PRODUCTOS   ----*/
 .productos-box{
-  float: left;
+  
   margin:20px 20px;
   width: 16em; 
   border:1px solid #A5CF61;
