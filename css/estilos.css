@@ -163,14 +163,9 @@ a {
 footer {
   padding: 10px;
   grid-area: footer;
-;
   display: flex;
-
-
   flex-direction: column;
-  
   justify-content: space-between;
-  
   align-items: center;
   background-color: #A5CF61;
 }
@@ -178,7 +173,6 @@ footer {
 .redes__img {
   height: 27px;
   width: 27px;
-  
 }
 
 /*----  INDEX   ----*/
