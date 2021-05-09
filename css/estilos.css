@@ -128,6 +128,16 @@ a {
 .sectionDos__titulo{
   text-transform: uppercase;
 }
+.sectionDos__texto--modificador{
+  margin-top: 2em;
+  width:auto;
+  display: inline-block;
+  height: 50px;
+  border-radius: 5px;
+  background: #A5CF61;
+  line-height: 50px;
+  text-align: center;
+}
 .breadcrumb--modificador{
   margin-top: 2em;
 }
@@ -199,30 +209,18 @@ footer {
   padding-bottom: 10px;
   display: inline-block;
   height: 50px;
+  border-radius: 5px;
   background: #A5CF61;
   line-height: 50px;
   text-transform: uppercase;
 }
-/*----  Contacto   ----*/
-.contacto{
-  margin-top: 2em;
-}
-input, textarea{
-	border-radius: 6px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: #051d4a;
-}
-.btn-form:hover{
-  transform: scale(1.1);
-}
-/*----  Proyecto   ----*/
-
+/*----  PROYECTO   ----*/
 .btn-absolute {
   position: absolute;
   right: 50px;  
 }
 .card--modificador{
-  max-width: 30em; 
+  max-width: 27em; 
   margin-bottom: 3em;
   background-color: whitesmoke;
 }
@@ -289,7 +287,17 @@ input, textarea{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #051d4a;
 }
+.btn-form:hover{
+  transform: scale(1.1);
+}
 /*---- ERROR 404 ----*/
+.body__404{
+  background-color: #A5CF61;
+}
+.menu__item--modificador {
+  text-transform: uppercase;
+  text-decoration-line: underline;
+}
 .mainbox {
   background-color: #A5CF61;
   margin: auto;
