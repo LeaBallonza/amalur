@@ -72,7 +72,8 @@ a {
 }
 .titulo {
   margin: 5px 0px 0px 10px;
-}
+  }
+
 .titulo a:hover {
   color: #768FCF;
 }
@@ -132,8 +133,8 @@ footer {
   padding: 10px;
   grid-area: footer;
   display: flex;
-  flex-direction: column; 
-  justify-content: space-between; 
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   background-color: #A5CF61;
 }
@@ -144,43 +145,93 @@ footer {
 /*----  INDEX   ----*/
 .carousel{
   width: auto;
+  max-width: 45em;
  }
  .boton{
   margin-bottom: 1em;
 }
- /*----  VENTAS  ----*/
-.tabla {
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-}
-.tabla--modificador {
-  background-color: #bcbcc0;
-}
-table th {
+.boton--modificador{
+  background-color: #A5CF61;
   color: #051d4a;
-  border: 1px solid;
+}
+
+.boton--modificador:hover{
+  transform: scale(1.1);
+}
+
+.h5-titulo{
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.h5--modificador{
+  font-size: larger;
+  font-weight: bold;
+}
+/*----  PRODUCTOS   ----*/
+.productos-box{
+  float: left;
+  margin:20px 20px;
+  width: 16em; 
+  border:1px solid #A5CF61;
+  border-bottom:10px solid #A5CF61;
+  text-align: center;
+}
+.productos-header {
+  padding: 5px 0 5px 0;
+  background: #A5CF61;
+  border-bottom:10px solid #A5CF61;
   text-transform: uppercase;
-  padding-top: 5px;
 }
-tr, td {
+.productos-detalles {
+  margin: 15px 10px 0 10px;
+  padding: 0 10px 15px 10px;
+  border-bottom: 1px dashed #888;
+  text-align: center;
+  line-height: 20px;
+  font-size: 17px;
+  color: #696969;
+  letter-spacing: 1px;
+}
+.productos-caracteristicas{
+  width:50%;
+  height: 50px;
+  margin: 25px 0 25px 0;
+  padding-bottom: 10px;
+  display: inline-block;
+  height: 50px;
+  background: #A5CF61;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+/*----  Contacto   ----*/
+
+
+.contacto{
+  margin-top: 2em;
+}
+
+input, textarea{
+
+
+	border-radius: 6px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #051d4a;
-  border: 1px solid;
-  border-top: 1px solid;
+
 }
-ol li {
-  list-style: disc;
-  font-style: oblique;
-}
-/*---- Proyecto  ----*/
+
+/*Proyecto*/
+
+
+
 .btn-absolute {
   position: absolute;
   right: 50px;  
 }
 .card--modificador{
-  max-width: 27em;
-  margin: auto;
+  max-width: 30em; 
   margin-bottom: 3em;
+  background-color: whitesmoke;
 }
 /*----   GALERIA   ----*/
 img{
